@@ -3,7 +3,7 @@
  * Copyright (C) 2016 Red Hat, Inc.
  */
 
-#include "nm-default.h"
+#include "nm-default-3173.h"
 
 #include "systemd/nm-sd.h"
 #include "systemd/nm-sd-utils-shared.h"

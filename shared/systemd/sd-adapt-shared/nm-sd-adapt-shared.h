@@ -6,7 +6,7 @@
 #ifndef __NM_SD_ADAPT_SHARED_H__
 #define __NM_SD_ADAPT_SHARED_H__
 
-#include "nm-default.h"
+#include "nm-default-2049.h"
 
 #include "nm-glib-aux/nm-logging-fwd.h"
 

@@ -3,7 +3,7 @@
  * Copyright (C) 2018 Red Hat, Inc.
  */
 
-#include "nm-default.h"
+#include "nm-default-2049.h"
 
 #include "nm-sd-utils-shared.h"
 
