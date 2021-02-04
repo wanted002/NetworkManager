@@ -3,7 +3,7 @@
  * Copyright (C) 2017 Red Hat, Inc.
  */
 
-#include "nm-default.h"
+#include "nm-default-227.h"
 
 #include "nm-setting-ovs-interface.h"
 

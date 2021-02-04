@@ -5,7 +5,7 @@
  * Copyright (C) 2009 One Laptop per Child
  */
 
-#include "nm-default.h"
+#include "nm-default-227.h"
 
 #include "nm-setting-olpc-mesh.h"
 

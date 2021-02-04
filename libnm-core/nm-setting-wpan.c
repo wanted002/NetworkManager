@@ -3,7 +3,7 @@
  * Copyright (C) 2018 Lubomir Rintel <lkundrak@v3.sk>
  */
 
-#include "nm-default.h"
+#include "nm-default-227.h"
 
 #include "nm-setting-wpan.h"
 

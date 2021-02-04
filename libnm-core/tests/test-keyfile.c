@@ -3,7 +3,7 @@
  * Copyright (C) 2015 Red Hat, Inc.
  */
 
-#include "nm-default.h"
+#include "nm-default-227.h"
 
 #include "nm-glib-aux/nm-json-aux.h"
 #include "nm-keyfile/nm-keyfile-utils.h"

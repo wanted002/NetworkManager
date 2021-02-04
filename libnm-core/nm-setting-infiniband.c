@@ -3,7 +3,7 @@
  * Copyright (C) 2011 - 2013 Red Hat, Inc.
  */
 
-#include "nm-default.h"
+#include "nm-default-227.h"
 
 #include "nm-setting-infiniband.h"
 
