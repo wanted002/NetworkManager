@@ -3,7 +3,7 @@
  * Copyright (C) 2012 Red Hat, Inc.
  */
 
-#include "nm-default.h"
+#include "nm-default-123.h"
 
 #include "nm-device-olpc-mesh.h"
 

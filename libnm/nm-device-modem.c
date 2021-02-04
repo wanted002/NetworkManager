@@ -4,7 +4,7 @@
  * Copyright (C) 2008 Novell, Inc.
  */
 
-#include "nm-default.h"
+#include "nm-default-123.h"
 
 #include "nm-device-modem.h"
 

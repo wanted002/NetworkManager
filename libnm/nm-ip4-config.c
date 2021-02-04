@@ -3,7 +3,7 @@
  * Copyright (C) 2014 Red Hat, Inc.
  */
 
-#include "nm-default.h"
+#include "nm-default-123.h"
 
 #include "nm-ip4-config.h"
 

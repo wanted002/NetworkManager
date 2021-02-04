@@ -13,28 +13,26 @@
  * and thereby rely on getting a basic set of headers already.
  */
 
-#ifndef __NM_DEFAULT_H__
-#define __NM_DEFAULT_H__
+#ifndef __NM_DEFAULT_123_H__
+#define __NM_DEFAULT_123_H__
 
 #include "nm-networkmanager-compilation.h"
 
-#ifndef NETWORKMANAGER_COMPILATION
-    #error Define NETWORKMANAGER_COMPILATION accordingly
+#ifdef NETWORKMANAGER_COMPILATION
+    #error Dont define NETWORKMANAGER_COMPILATION
 #endif
 
-#if NETWORKMANAGER_COMPILATION < 227
-    #error Dont include this header with such NETWORKMANAGER_COMPILATION
+#ifdef NETWORKMANAGER_COMPILATION_TEST
+    #error Dont define NETWORKMANAGER_COMPILATION_TEST
 #endif
 
 #ifndef G_LOG_DOMAIN
-    #if defined(NETWORKMANAGER_COMPILATION_TEST)
-        #define G_LOG_DOMAIN "test"
-    #elif NETWORKMANAGER_COMPILATION & NM_NETWORKMANAGER_COMPILATION_WITH_DAEMON
-        #define G_LOG_DOMAIN "NetworkManager"
-    #else
-        #error Need to define G_LOG_DOMAIN
-    #endif
+    #error Define G_LOG_DOMAIN
 #endif
+
+/*****************************************************************************/
+
+#define NETWORKMANAGER_COMPILATION 123
 
 /*****************************************************************************/
 
@@ -195,4 +193,4 @@
 
 /*****************************************************************************/
 
-#endif /* __NM_DEFAULT_H__ */
+#endif /* __NM_DEFAULT_123_H__ */

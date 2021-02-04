@@ -1575,7 +1575,6 @@ libnm_lib_cppflags = \
 	-I$(builddir)/libnm \
 	$(dflt_cppflags_libnm_core) \
 	-DG_LOG_DOMAIN=\""libnm"\" \
-	-DNETWORKMANAGER_COMPILATION=NM_NETWORKMANAGER_COMPILATION_LIBNM \
 	$(NULL)
 
 libnminclude_HEADERS += \
@@ -1636,7 +1635,7 @@ nm_enum_types_sources = \
 	$(libnm_lib_h_pub_mkenums) \
 	$(libnm_lib_h_pub_real)
 nm_enum_types_MKENUMS_H_FLAGS = --identifier-prefix NM --fhead '\#include "nm-core-enum-types.h"\n'
-nm_enum_types_MKENUMS_C_FLAGS = --identifier-prefix NM --fhead '\#include "nm-default.h"\n'
+nm_enum_types_MKENUMS_C_FLAGS = --identifier-prefix NM --fhead '\#include "nm-default-123.h"\n'
 
 $(dispatcher_nm_dispatcher_OBJECTS):                    $(libnm_lib_h_pub_mkenums)
 $(dispatcher_libnm_dispatcher_core_la_OBJECTS):         $(libnm_lib_h_pub_mkenums)
@@ -1690,7 +1689,10 @@ libnm/NM-1.0.gir: libnm/libnm.la
 libnm_NM_1_0_gir_INCLUDES = Gio-2.0
 libnm_NM_1_0_gir_PACKAGES = gio-2.0
 libnm_NM_1_0_gir_EXPORT_PACKAGES = libnm
-libnm_NM_1_0_gir_CFLAGS = $(libnm_libnm_la_CPPFLAGS)
+libnm_NM_1_0_gir_CFLAGS = \
+	$(libnm_libnm_la_CPPFLAGS) \
+	-DNETWORKMANAGER_COMPILATION \
+	$(NULL)
 libnm_NM_1_0_gir_LIBS = libnm/libnm.la
 libnm_NM_1_0_gir_FILES = \
 	$(libnm_core_lib_h_pub_mkenums) \
@@ -1789,8 +1791,7 @@ libnm_tests_cppflags = \
 	-I$(srcdir)/libnm \
 	-I$(builddir)/libnm \
 	$(dflt_cppflags_libnm_core) \
-	-DNETWORKMANAGER_COMPILATION_TEST \
-	-DNETWORKMANAGER_COMPILATION=NM_NETWORKMANAGER_COMPILATION_LIBNM \
+	-DG_LOG_DOMAIN=\""test"\" \
 	$(SANITIZER_EXEC_CFLAGS) \
 	$(NULL)
 
@@ -5424,6 +5425,7 @@ EXTRA_DIST += \
 	shared/nm-default-5.h \
 	shared/nm-default-45.h \
 	shared/nm-default-67.h \
+	shared/nm-default-123.h \
 	shared/nm-gassert-patch.h \
 	shared/nm-networkmanager-compilation.h \
 	shared/nm-test-libnm-utils.h \
