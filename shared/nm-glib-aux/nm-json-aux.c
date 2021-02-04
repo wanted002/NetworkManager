@@ -3,7 +3,7 @@
  * Copyright (C) 2017 - 2019 Red Hat, Inc.
  */
 
-#include "nm-default.h"
+#include "nm-default-3.h"
 
 #include "nm-json-aux.h"
 

@@ -381,7 +381,6 @@ shared_nm_glib_aux_cppflags = \
 	$(SANITIZER_LIB_CFLAGS) \
 	$(GLIB_CFLAGS) \
 	-DG_LOG_DOMAIN=\""libnm"\" \
-	-DNETWORKMANAGER_COMPILATION='(NM_NETWORKMANAGER_COMPILATION_GLIB|NM_NETWORKMANAGER_COMPILATION_WITH_GLIB_I18N_LIB)' \
 	$(NULL)
 
 noinst_LTLIBRARIES += shared/nm-glib-aux/libnm-glib-aux.la
@@ -498,7 +497,6 @@ shared_nm_log_core_libnm_log_core_la_CPPFLAGS = \
 	$(GLIB_CFLAGS) \
 	$(SYSTEMD_JOURNAL_CFLAGS) \
 	-DG_LOG_DOMAIN=\""NetworkManager"\" \
-	-DNETWORKMANAGER_COMPILATION='(NM_NETWORKMANAGER_COMPILATION_GLIB|NM_NETWORKMANAGER_COMPILATION_WITH_GLIB_I18N_LIB)' \
 	$(NULL)
 
 shared_nm_log_core_libnm_log_core_la_SOURCES = \
@@ -629,7 +627,6 @@ libnm_core_nm_libnm_core_aux_libnm_libnm_core_aux_la_CPPFLAGS = \
 	$(GLIB_CFLAGS) \
 	$(SANITIZER_LIB_CFLAGS) \
 	-DG_LOG_DOMAIN=\""libnm"\" \
-	-DNETWORKMANAGER_COMPILATION='(NM_NETWORKMANAGER_COMPILATION_WITH_GLIB|NM_NETWORKMANAGER_COMPILATION_WITH_GLIB_I18N_LIB)' \
 	$(NULL)
 
 libnm_core_nm_libnm_core_aux_libnm_libnm_core_aux_la_SOURCES = \
@@ -5434,6 +5431,7 @@ EXTRA_DIST += \
 	shared/nm-default.h \
 	shared/nm-default-0.h \
 	shared/nm-default-1.h \
+	shared/nm-default-3.h \
 	shared/nm-gassert-patch.h \
 	shared/nm-networkmanager-compilation.h \
 	shared/nm-test-libnm-utils.h \

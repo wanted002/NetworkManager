@@ -3,7 +3,7 @@
  * Copyright (C) 2017 Red Hat, Inc.
  */
 
-#include "nm-default.h"
+#include "nm-default-3.h"
 
 #include "nm-hash-utils.h"
 

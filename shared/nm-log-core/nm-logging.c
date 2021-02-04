@@ -4,7 +4,7 @@
  * Copyright (C) 2006 - 2008 Novell, Inc.
  */
 
-#include "nm-default.h"
+#include "nm-default-3.h"
 
 #include "nm-logging.h"
 
