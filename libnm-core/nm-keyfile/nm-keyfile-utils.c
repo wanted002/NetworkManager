@@ -3,7 +3,7 @@
  * Copyright (C) 2010 Red Hat, Inc.
  */
 
-#include "nm-default.h"
+#include "nm-default-67.h"
 
 #include "nm-keyfile-utils.h"
 

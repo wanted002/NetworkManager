@@ -661,7 +661,6 @@ libnm_core_nm_keyfile_libnm_keyfile_la_CPPFLAGS = \
 	$(GLIB_CFLAGS) \
 	$(SANITIZER_LIB_CFLAGS) \
 	-DG_LOG_DOMAIN=\""libnm"\" \
-	-DNETWORKMANAGER_COMPILATION='(NM_NETWORKMANAGER_COMPILATION_WITH_LIBNM_CORE_INTERNAL|NM_NETWORKMANAGER_COMPILATION_WITH_GLIB|NM_NETWORKMANAGER_COMPILATION_WITH_GLIB_I18N_LIB)' \
 	$(NULL)
 
 libnm_core_nm_keyfile_libnm_keyfile_la_SOURCES = \
@@ -5424,6 +5423,7 @@ EXTRA_DIST += \
 	shared/nm-default-3.h \
 	shared/nm-default-5.h \
 	shared/nm-default-45.h \
+	shared/nm-default-67.h \
 	shared/nm-gassert-patch.h \
 	shared/nm-networkmanager-compilation.h \
 	shared/nm-test-libnm-utils.h \

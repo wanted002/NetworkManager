@@ -95,7 +95,7 @@ libnm_libnm_core_intern = static_library(
     libnm_base_dep,
   ],
   c_args: [
-    '-DG_LOG_DOMAIN="@0@"'.format(libnm_name),
+    '-DG_LOG_DOMAIN="libnm"',
     '-DNETWORKMANAGER_COMPILATION=NM_NETWORKMANAGER_COMPILATION_LIBNM_CORE',
   ],
 )
@@ -118,7 +118,7 @@ libnm_crypto = static_library(
     libnm_glib_aux_dep,
   ],
   c_args: [
-    '-DG_LOG_DOMAIN="@0@"'.format(libnm_name),
+    '-DG_LOG_DOMAIN="libnm"',
     '-DNETWORKMANAGER_COMPILATION=NM_NETWORKMANAGER_COMPILATION_LIBNM_CORE',
   ],
 )
@@ -203,7 +203,7 @@ libnm_core = static_library(
     uuid_dep,
   ],
   c_args: [
-    '-DG_LOG_DOMAIN="@0@"'.format(libnm_name),
+    '-DG_LOG_DOMAIN="libnm"',
     '-DNETWORKMANAGER_COMPILATION=NM_NETWORKMANAGER_COMPILATION_LIBNM_CORE',
   ],
   link_with: [
@@ -251,8 +251,7 @@ libnm_keyfile = static_library(
   sources: nm_keyfile_source + [libnm_core_enum_sources[1]],
   dependencies: libnm_glib_aux_dep,
   c_args: [
-    '-DG_LOG_DOMAIN="@0@"'.format(libnm_name),
-    '-DNETWORKMANAGER_COMPILATION=(NM_NETWORKMANAGER_COMPILATION_WITH_LIBNM_CORE_INTERNAL|NM_NETWORKMANAGER_COMPILATION_WITH_GLIB|NM_NETWORKMANAGER_COMPILATION_WITH_GLIB_I18N_LIB)',
+    '-DG_LOG_DOMAIN="libnm"',
   ],
   link_with: libnm_libnm_core_intern,
 )
