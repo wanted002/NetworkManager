@@ -22,7 +22,7 @@
  * extent of the section.
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include "nmt-newt-section.h"
 

@@ -11,7 +11,7 @@
  * slaves of a connection.
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include "nmt-slave-list.h"
 

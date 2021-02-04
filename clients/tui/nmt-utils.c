@@ -8,7 +8,7 @@
  * @short_description: Miscellaneous nmtui-specific utilities
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include "nmt-utils.h"
 

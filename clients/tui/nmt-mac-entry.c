@@ -13,7 +13,7 @@
  * on whether it currently contains a valid hardware address.
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include "nmt-mac-entry.h"
 

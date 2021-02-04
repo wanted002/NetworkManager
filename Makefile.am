@@ -698,7 +698,6 @@ libnm_nm_libnm_aux_libnm_libnm_aux_la_CPPFLAGS = \
 	$(GLIB_CFLAGS) \
 	$(SANITIZER_LIB_CFLAGS) \
 	-DG_LOG_DOMAIN=\""libnmc"\" \
-	-DNETWORKMANAGER_COMPILATION=NM_NETWORKMANAGER_COMPILATION_CLIENT \
 	$(NULL)
 
 libnm_nm_libnm_aux_libnm_libnm_aux_la_SOURCES = \
@@ -1871,8 +1870,7 @@ libnm_tests_libnm_vpn_plugin_utils_test_la_CFLAGS = \
 	-I$(builddir)/libnm \
 	$(GLIB_CFLAGS) \
 	$(SANITIZER_EXEC_CFLAGS) \
-	-DNETWORKMANAGER_COMPILATION_TEST \
-	-DNETWORKMANAGER_COMPILATION=NM_NETWORKMANAGER_COMPILATION_CLIENT \
+	-DG_LOG_DOMAIN=\""test"\" \
 	$(NULL)
 
 libnm_tests_libnm_vpn_plugin_utils_test_la_LIBADD = \
@@ -4381,7 +4379,6 @@ dispatcher_cppflags = \
 	-I$(builddir)/dispatcher \
 	$(GLIB_CFLAGS) \
 	-DG_LOG_DOMAIN=\""nm-dispatcher"\" \
-	-DNETWORKMANAGER_COMPILATION=NM_NETWORKMANAGER_COMPILATION_CLIENT \
 	$(NULL)
 
 dispatcher_libnm_dispatcher_core_la_SOURCES = \
@@ -4462,8 +4459,7 @@ dispatcher_tests_test_dispatcher_envp_CPPFLAGS = \
 	-I$(builddir)/libnm \
 	-I$(srcdir)/dispatcher \
 	-I$(builddir)/dispatcher \
-	-DNETWORKMANAGER_COMPILATION_TEST \
-	-DNETWORKMANAGER_COMPILATION=NM_NETWORKMANAGER_COMPILATION_CLIENT \
+	-DG_LOG_DOMAIN=\""NetworkManager"\" \
 	$(GLIB_CFLAGS) \
 	$(SANITIZER_EXEC_CFLAGS) \
 	$(INTROSPECTION_EXTRA_CFLAGS) \
@@ -4519,7 +4515,6 @@ clients_nm_online_CPPFLAGS = \
 	-I$(builddir)/libnm \
 	$(GLIB_CFLAGS) \
 	-DG_LOG_DOMAIN=\""nm-online"\" \
-	-DNETWORKMANAGER_COMPILATION=NM_NETWORKMANAGER_COMPILATION_CLIENT \
 	$(NULL)
 
 clients_nm_online_LDFLAGS = \
@@ -4555,7 +4550,6 @@ clients_cppflags = \
 	-I$(srcdir)/libnm \
 	-I$(builddir)/libnm \
 	-I$(srcdir)/clients/common \
-	-DNETWORKMANAGER_COMPILATION=NM_NETWORKMANAGER_COMPILATION_CLIENT \
 	$(GLIB_CFLAGS) \
 	$(SANITIZER_EXEC_CFLAGS) \
 	$(NULL)
@@ -4650,7 +4644,7 @@ endif
 clients_common_tests_test_clients_common_CPPFLAGS = \
 	-I$(srcdir)/clients/common/tests \
 	$(clients_cppflags) \
-	-DNETWORKMANAGER_COMPILATION_TEST \
+	-DG_LOG_DOMAIN=\""test"\" \
 	$(NULL)
 
 clients_common_tests_test_clients_common_LDFLAGS = \
@@ -4691,8 +4685,7 @@ clients_common_tests_test_libnm_core_aux_CPPFLAGS = \
 	-I$(srcdir)/libnm-core \
 	-I$(builddir)/libnm \
 	-I$(srcdir)/libnm \
-	-DNETWORKMANAGER_COMPILATION_TEST \
-	-DNETWORKMANAGER_COMPILATION=NM_NETWORKMANAGER_COMPILATION_CLIENT \
+	-DG_LOG_DOMAIN=\""test"\" \
 	$(CODE_COVERAGE_CFLAGS) \
 	$(GLIB_CFLAGS) \
 	$(SANITIZER_LIB_CFLAGS) \
@@ -5430,6 +5423,7 @@ EXTRA_DIST += \
 	shared/nm-default-1.h \
 	shared/nm-default-3.h \
 	shared/nm-default-5.h \
+	shared/nm-default-45.h \
 	shared/nm-gassert-patch.h \
 	shared/nm-networkmanager-compilation.h \
 	shared/nm-test-libnm-utils.h \

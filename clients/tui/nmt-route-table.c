@@ -11,7 +11,7 @@
  * and buttons to add and remove entries.
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include <arpa/inet.h>
 #include <netinet/in.h>

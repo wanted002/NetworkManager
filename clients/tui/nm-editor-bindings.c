@@ -12,7 +12,7 @@
  * shared between nmtui, nm-connection-editor, and gnome-control-center.
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include "nm-editor-bindings.h"
 

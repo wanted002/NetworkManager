@@ -13,7 +13,7 @@
  * See also #NmtNewtEntryNumeric, for numeric-only entries.
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include "nmt-newt-entry.h"
 #include "nmt-newt-form.h"

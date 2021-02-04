@@ -3,7 +3,7 @@
  * Copyright (C) 2010 - 2015 Red Hat, Inc.
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include "settings.h"
 

@@ -11,7 +11,7 @@
  * including presenting a password dialog if necessary.
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include <stdlib.h>
 

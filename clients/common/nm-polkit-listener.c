@@ -18,7 +18,7 @@
  * https://github.com/lxde/lxqt-policykit/tree/master/src
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include "nm-polkit-listener.h"
 

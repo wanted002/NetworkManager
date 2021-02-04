@@ -8,7 +8,7 @@
  * @short_description: VPN-related utilities
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include "nm-vpn-helpers.h"
 

@@ -3,7 +3,7 @@
  * Copyright (C) 2019 Red Hat, Inc.
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include "nm-libnm-core-aux/nm-libnm-core-aux.h"
 #include "nm-libnm-core-intern/nm-libnm-core-utils.h"

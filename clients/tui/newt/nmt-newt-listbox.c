@@ -18,7 +18,7 @@
  * presses Return on a selection.
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include "nmt-newt-listbox.h"
 #include "nmt-newt-form.h"

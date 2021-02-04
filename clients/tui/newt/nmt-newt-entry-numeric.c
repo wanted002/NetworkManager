@@ -13,7 +13,7 @@
  * #NmtNewtEntryValidator functions, so you should not set your own.
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include <stdlib.h>
 

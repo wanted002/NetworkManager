@@ -12,7 +12,7 @@
  * can't just use #GBinding.
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include "nmt-page-bond.h"
 

@@ -3,7 +3,11 @@
  * Copyright (C) 2017 - 2018 Red Hat, Inc.
  */
 
-#include "nm-default.h"
+#ifdef NETWORKMANAGER_COMPILATION
+    #undef NETWORKMANAGER_COMPILATION
+#endif
+
+#include "nm-default-3.h"
 
 #include "nm-meta-setting.h"
 

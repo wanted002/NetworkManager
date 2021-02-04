@@ -12,7 +12,7 @@
  * between widgets in containers that don't implement padding.
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include "nmt-newt-separator.h"
 

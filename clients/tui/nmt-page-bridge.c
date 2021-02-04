@@ -8,7 +8,7 @@
  * @short_description: The editor page for Bridge connections
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include "nmt-page-bridge.h"
 

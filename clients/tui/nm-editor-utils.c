@@ -12,7 +12,7 @@
  * nm-connection-editor, and gnome-control-center.
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include "nm-editor-utils.h"
 #if 0

@@ -10,7 +10,7 @@
  * nmtui-hostname implements the "set hostname" functionality
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include "nmt-newt.h"
 

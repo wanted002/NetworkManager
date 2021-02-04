@@ -12,7 +12,7 @@
  * "Show password" checkbox that toggles whether the password is visible.
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include "nmt-password-fields.h"
 

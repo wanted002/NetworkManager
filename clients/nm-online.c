@@ -16,7 +16,7 @@
  * Robert Love <rml@novell.com>
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include <stdio.h>
 #include <stdlib.h>

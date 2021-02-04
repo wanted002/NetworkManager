@@ -11,7 +11,7 @@
  * nmtui_edit(), and nmtui_hostname().
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include "nmtui.h"
 

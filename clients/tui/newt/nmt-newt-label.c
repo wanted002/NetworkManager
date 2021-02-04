@@ -12,7 +12,7 @@
  * See also #NmtNewtTextbox, for multiline.
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include "nmt-newt-label.h"
 

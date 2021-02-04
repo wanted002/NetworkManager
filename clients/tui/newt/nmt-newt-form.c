@@ -11,7 +11,7 @@
  * "form" (aka dialog) to the user.
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include <fcntl.h>
 #include <unistd.h>

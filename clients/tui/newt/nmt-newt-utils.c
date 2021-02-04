@@ -8,7 +8,7 @@
  * @short_description: Utility functions
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include <stdarg.h>
 #include <unistd.h>

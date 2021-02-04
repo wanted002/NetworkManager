@@ -21,7 +21,7 @@
  * FIXME: need RTL support
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include "nmt-newt-widget.h"
 #include "nmt-newt-form.h"

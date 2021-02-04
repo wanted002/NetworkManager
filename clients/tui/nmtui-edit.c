@@ -10,7 +10,7 @@
  * nmtui-edit implements editing #NMConnections.
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include <stdlib.h>
 

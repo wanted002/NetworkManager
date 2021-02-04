@@ -17,7 +17,7 @@
  * indicating the units used by the entry.
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include <stdlib.h>
 

@@ -10,7 +10,7 @@
  * #NmtNewtToggleButton implements a two-state toggle button.
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include "nmt-newt-toggle-button.h"
 

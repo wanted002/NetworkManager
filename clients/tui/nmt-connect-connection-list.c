@@ -11,7 +11,7 @@
  * access points displayed by "nmtui connect".
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include <stdlib.h>
 

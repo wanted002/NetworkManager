@@ -10,7 +10,7 @@
  * #NmtEditor is the top-level form for editing a connection.
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include "nmt-editor.h"
 

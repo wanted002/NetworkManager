@@ -3,7 +3,7 @@
  * Copyright (C) 2016, 2018 Red Hat, Inc.
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include "nm-vpn-plugin-utils.h"
 

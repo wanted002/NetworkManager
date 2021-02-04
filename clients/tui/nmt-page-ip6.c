@@ -8,7 +8,7 @@
  * @short_description: The editor page for IP6 configuration
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include <stdlib.h>
 

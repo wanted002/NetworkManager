@@ -11,7 +11,7 @@
  * word-wrapping.
  */
 
-#include "nm-default.h"
+#include "nm-default-45.h"
 
 #include "nmt-newt-textbox.h"
 
