@@ -22,7 +22,7 @@
     #error Define NETWORKMANAGER_COMPILATION accordingly
 #endif
 
-#if NETWORKMANAGER_COMPILATION < 1
+#if NETWORKMANAGER_COMPILATION < 3
     #error Dont include this header with such NETWORKMANAGER_COMPILATION
 #endif
 

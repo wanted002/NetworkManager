@@ -3,7 +3,7 @@
  * Copyright (C) 2007 - 2013 Red Hat, Inc.
  */
 
-#include "nm-default.h"
+#include "nm-default-1.h"
 
 #include <unistd.h>
 #include <stdlib.h>

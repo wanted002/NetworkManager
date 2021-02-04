@@ -2986,7 +2986,6 @@ src_core_dhcp_nm_dhcp_helper_CPPFLAGS = \
 	-I$(srcdir)/shared \
 	-I$(builddir)/shared \
 	-DG_LOG_DOMAIN=\""nm-dhcp-helper"\" \
-	-DNETWORKMANAGER_COMPILATION=NM_NETWORKMANAGER_COMPILATION_GLIB \
 	$(GLIB_CFLAGS) \
 	$(NULL)
 
@@ -3049,7 +3048,6 @@ src_core_ppp_nm_pppd_plugin_la_CPPFLAGS = \
 	-I$(builddir)/shared \
 	-I$(srcdir)/libnm-core \
 	-DG_LOG_DOMAIN=\""nm-pppd-plugin"\" \
-	-DNETWORKMANAGER_COMPILATION=NM_NETWORKMANAGER_COMPILATION_GLIB \
 	$(GLIB_CFLAGS)
 
 src_core_ppp_nm_pppd_plugin_la_SOURCES = \
@@ -5435,6 +5433,7 @@ EXTRA_DIST += \
 	\
 	shared/nm-default.h \
 	shared/nm-default-0.h \
+	shared/nm-default-1.h \
 	shared/nm-gassert-patch.h \
 	shared/nm-networkmanager-compilation.h \
 	shared/nm-test-libnm-utils.h \
