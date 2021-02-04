@@ -5407,7 +5407,6 @@ EXTRA_DIST += \
 	\
 	po/meson.build \
 	\
-	shared/nm-default.h \
 	shared/nm-default-0.h \
 	shared/nm-default-1.h \
 	shared/nm-default-3.h \
