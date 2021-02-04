@@ -1777,8 +1777,6 @@ EXTRA_DIST += \
 	tools/generate-docs-nm-settings-docs-merge.py \
 	tools/generate-docs-nm-settings-docs-gir.py \
 	libnm/meson.build \
-	libnm/nm-enum-types.c.template \
-	libnm/nm-enum-types.h.template \
 	$(NULL)
 
 ###############################################################################
