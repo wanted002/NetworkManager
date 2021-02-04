@@ -354,7 +354,6 @@ shared_nm_std_aux_libnm_std_aux_la_CPPFLAGS = \
 	$(CODE_COVERAGE_CFLAGS) \
 	$(SANITIZER_LIB_CFLAGS) \
 	-DG_LOG_DOMAIN=\""libnm"\" \
-	-DNETWORKMANAGER_COMPILATION='0' \
 	$(NULL)
 
 shared_nm_std_aux_libnm_std_aux_la_SOURCES = \
@@ -5435,6 +5434,7 @@ EXTRA_DIST += \
 	po/meson.build \
 	\
 	shared/nm-default.h \
+	shared/nm-default-0.h \
 	shared/nm-gassert-patch.h \
 	shared/nm-networkmanager-compilation.h \
 	shared/nm-test-libnm-utils.h \

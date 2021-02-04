@@ -22,6 +22,10 @@
     #error Define NETWORKMANAGER_COMPILATION accordingly
 #endif
 
+#if NETWORKMANAGER_COMPILATION < 1
+    #error Dont include this header with such NETWORKMANAGER_COMPILATION
+#endif
+
 #ifndef G_LOG_DOMAIN
     #if defined(NETWORKMANAGER_COMPILATION_TEST)
         #define G_LOG_DOMAIN "test"
