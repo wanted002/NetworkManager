@@ -4,7 +4,7 @@
  * Author: Matthias Clasen <mclasen@redhat.com>
  */
 
-#include "nm-default.h"
+#include "nm-default-1125.h"
 
 #include "nm-sleep-monitor.h"
 

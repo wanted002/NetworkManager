@@ -4,7 +4,7 @@
  * Copyright (C) 2008 - 2014 Red Hat, Inc.
  */
 
-#include "nm-default.h"
+#include "nm-default-1125.h"
 
 #include "nm-settings-connection.h"
 

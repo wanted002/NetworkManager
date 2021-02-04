@@ -4,7 +4,7 @@
  * Copyright (C) 2004 Tom Parker
  */
 
-#include "nm-default.h"
+#include "nm-default-1125.h"
 
 #include "nms-ifupdown-interface-parser.h"
 

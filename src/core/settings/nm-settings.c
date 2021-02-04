@@ -7,7 +7,7 @@
  * Copyright (C) 2008 Novell, Inc.
  */
 
-#include "nm-default.h"
+#include "nm-default-1125.h"
 
 #include "nm-settings.h"
 

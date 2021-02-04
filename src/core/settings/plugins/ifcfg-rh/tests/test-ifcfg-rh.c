@@ -3,7 +3,7 @@
  * Copyright (C) 2008 - 2011 Red Hat, Inc.
  */
 
-#include "nm-default.h"
+#include "nm-default-1125.h"
 
 #include <stdio.h>
 #include <stdarg.h>

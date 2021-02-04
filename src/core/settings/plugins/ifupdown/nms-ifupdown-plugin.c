@@ -5,7 +5,7 @@
  * Copyright (C) 2009 - 2011 Red Hat, Inc.
  */
 
-#include "nm-default.h"
+#include "nm-default-1125.h"
 
 #include "nms-ifupdown-plugin.h"
 

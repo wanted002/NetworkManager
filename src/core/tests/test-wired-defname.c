@@ -3,7 +3,7 @@
  * Copyright (C) 2010 Red Hat, Inc.
  */
 
-#include "nm-default.h"
+#include "nm-default-1125.h"
 
 #include "nm-simple-connection.h"
 #include "nm-setting-connection.h"

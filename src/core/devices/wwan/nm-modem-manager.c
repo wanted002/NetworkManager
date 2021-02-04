@@ -5,7 +5,7 @@
  * Copyright (C) 2009 - 2013 Canonical Ltd.
  */
 
-#include "nm-default.h"
+#include "nm-default-1125.h"
 
 #include "nm-modem-manager.h"
 

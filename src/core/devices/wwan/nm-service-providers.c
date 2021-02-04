@@ -6,7 +6,7 @@
  * Copyright (C) 2012 Lanedo GmbH
  */
 
-#include "nm-default.h"
+#include "nm-default-1125.h"
 
 #include "nm-service-providers.h"
 
